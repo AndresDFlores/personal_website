@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADF | Contact</title>
+    <link rel="stylesheet" href="contact_style.css">
+    <link rel="icon" type="image/x-icon" href="E:\Desktop\python_projects\personal_website\templates\website_images\favicon_legoSelfie.png">
+</head>
+
+<body>
+    <div class="hero">
+
+        <nav>
+
+            <img src="E:\Desktop\python_projects\personal_website\templates\website_images\favicon_legoSelfie.png" class="logo">
+
+            <ul>
+                <li><a href="home.html" class="ribbon_tab underline_on_hover">Home</a></li>
+                <li><a href="about.html" class="ribbon_tab underline_on_hover">About</a></li>
+                <li><a href="#" class="ribbon_tab underline_on_hover">Resume</a></li>
+                <li><a href="#" class="ribbon_tab underline_on_hover">Tech Notes</a></li>
+                <li><a href="contact.html" class="ribbon_tab underline_on_hover selected_ribbon_tab">Contact</a></li>
+            </ul>
+
+            <div>
+                <a href="https://www.linkedin.com/in/andresdflores/" class="btn anim">LinkedIn</a>
+                <a href="https://github.com/AndresDFlores" class="btn anim">GitHub</a>
+            </div>
+
+        </nav>
+        
+
+
+        <!-- https://www.youtube.com/watch?v=-HeadgoqJ7A -->
+        <!-- email access key: web3forms -->
+        <div class="contact_container">
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact_left">
+
+                <div class="contact_left_title">
+                    <h2 class="anim">
+                        Get in Touch
+                    </h2>
+                </div>
+
+                <!-- email access key -->
+                <input type="hidden" name="access_key" value="f0a5057d-0f82-46e6-a561-f7ae1aeffc9b">
+
+                <!-- user form inputs -->
+                <input type="'text" name="name" placeholder="Your Name" class="contact_entry" required>
+                <input type="'text" name="email" placeholder="Your Email" class="contact_entry" required>
+                <textarea name="message" placeholder="Your Message" class="contact_entry"required></textarea>
+                
+                <button type="submit">
+                    SUBMIT
+                </button>
+
+            </form>
+
+            <div class="contact_right">
+                
+            </div>
+
+            
+
+
+            <p class="anim">
+            </p>
+
+        </div>
+
+    </div>
+
+    <footer class="footer_line">
+
+        <p>&copy; 2025  |  Website by Andres D. Flores  |  Hosted on Amazon Web Services (AWS)</p>
+
+    </footer>
+
+</body>
+</html>
