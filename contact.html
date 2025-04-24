@@ -1,13 +1,16 @@
 <!-- 127.0.0.1:5000  |  127.0.0.1 is the local computer's IP address, 5000 is the port -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADF | Contact</title>
+    <meta name="description" content="Andres D. Flores personal website and technical notebook">
+
+    <title>Contact | ADF</title>
     <link rel="stylesheet" href="contact_style.css">
-    <link rel="icon" type="image/x-icon" href="E:\Desktop\python_projects\personal_website\templates\website_images\favicon_legoSelfie.png">
+    <link rel="icon" type="image/x-icon" href="website_images\favicon_legoSelfie.png">
 </head>
 
 <body>
@@ -15,26 +18,28 @@
 
         <nav>
 
-            <img src="E:\Desktop\python_projects\personal_website\templates\website_images\favicon_legoSelfie.png" class="logo">
+            <img src="website_images\favicon_legoSelfie.png" class="logo">
 
             
             <!-- li:  List Item:  used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>) -->
+            <!-- a:  anchor:  used to create a link -->
             <ul>
                 <li><a href="index.html" class="ribbon_tab underline_on_hover">Home</a></li>
                 <li><a href="about.html" class="ribbon_tab underline_on_hover">About</a></li>
-                <li><a href="#" class="ribbon_tab underline_on_hover">Resume</a></li>
+                <li><a href="resume.html" class="ribbon_tab underline_on_hover">Resume</a></li>
                 <li><a href="#" class="ribbon_tab underline_on_hover">Tech Notes</a></li>
                 <li><a href="contact.html" class="ribbon_tab underline_on_hover selected_ribbon_tab">Contact</a></li>
             </ul>
 
             <div>
-                <a href="https://www.linkedin.com/in/andresdflores/" class="btn anim">LinkedIn</a>
-                <a href="https://github.com/AndresDFlores" class="btn anim">GitHub</a>
+                <a href="https://www.linkedin.com/in/andresdflores/" target="_blank" class="btn anim">LinkedIn</a>
+                <a href="https://github.com/AndresDFlores" target="_blank" class="btn anim">GitHub</a>
             </div>
 
         </nav>
         
 
+        
         <!-- https://www.youtube.com/watch?v=-HeadgoqJ7A -->
         <!-- email access key: web3forms -->
         <div class="contact_container">
@@ -42,9 +47,9 @@
             <form action="https://api.web3forms.com/submit" method="POST" class="contact_left">
 
                 <div class="contact_left_title">
-                    <h2 class="anim">
+                    <h1 class="anim">
                         Get in Touch
-                    </h2>
+                    </h1>
                 </div>
 
                 <!-- email access key -->
@@ -65,11 +70,6 @@
                 
             </div>
 
-            
-
-
-            <p class="anim">
-            </p>
 
         </div>
 
@@ -77,7 +77,7 @@
 
     <footer class="footer_line">
 
-        <p>&copy; 2025  |  Website by Andres D. Flores  |  Hosted on Amazon Web Services (AWS)</p>
+        <p>&copy; 2025  |  Website Designed and Built with HTML / CSS by Andres D. Flores  |  Hosted on Amazon Web Services (AWS)</p>
 
     </footer>
 

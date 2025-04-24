@@ -82,21 +82,31 @@ nav ul li a{
 
 
 .about_me{
-    margin-top: 10%;
+    margin-top: 5%;
+    padding: 10px 10%;
 }
 
 
 .about_me h1{
-    font-size: 70px;
+    font-size: 50px;
     color: #222;
+    animation-delay: 0.5s;
 }
 
 .about_me p{
     font-size: 25px;
     margin-right: 10;
     color: #333;
-    animation-delay: 0.5s;
+    text-align:justify;
+    animation-delay: 0.75s;
 }
+
+.about_me p:after {/* this adds an extra invisible line, so any other line is justified */
+    content:'';
+    display:inline-block;
+    width:100%;
+    vertical-align:top;
+    }
 
 .contact_button{
     margin-top: 5%;

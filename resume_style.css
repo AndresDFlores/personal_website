@@ -75,81 +75,137 @@ nav ul li a{
     transition: 0.5s
 }
 
-
 .btn:hover{
     border-top-right-radius: 30px;
 }
 
 
 
-.column {
-    float: left;
-    width: 50%;
-  }
 
 
-
-.header{
+.resume{
     margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-
-  /* Clear floats after the columns */
-.header:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-
-.header h1{
-    text-align: right;
-    font-size: 100px;
-    margin-right: 5%;
-}
-
-.header p{
-    text-align: right;
-    font-size: 30px;
-    margin-right: 5%;
-}
-
-
-.headshot{
-    width:530px;
-    height: auto;
-}
-
-
-.intro{
-    margin-top: 10%;
     padding: 10px 10%;
-}
-
-
-.intro h1{
-    font-size: 50px;
-    color: #222;
-    animation-delay: 0.5s;
-}
-
-.intro p{
-    font-size: 25px;
-    margin-right: 10;
-    color: #333;
-    text-align:justify;
     animation-delay: 0.75s;
+
+    .row{
+        margin-top: 1%;
+    };
+
+    h1{
+        color: darkblue;
+        text-align: left;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+    };
+
 }
 
-.intro p:after {/* this adds an extra invisible line, so any other line is justified */
-    content:'';
-    display:inline-block;
-    width:100%;
-    vertical-align:top;
+
+/* Clear floats after the columns */
+.resume:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.resume_container{
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 375px;
     }
+
+    .col1{
+        h3{
+            font-weight: normal;
+        };
+
+        h4{
+            font-weight: normal;
+            font-style: italic;
+        };
+    };
+
+    .col2{
+        li{
+            text-align:justify;
+            padding-bottom: 15px;
+        }
+    };
+
+}
+
+
+.aptitudes_container{
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 75px;
+    };
+
+    .col1{
+        text-align: right;
+    };
+}
+
+
+.education_container{
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 130px;
+    }
+
+    .col1{
+
+        h3{
+            font-weight: normal;
+        };
+
+        h4{
+            font-weight: normal;
+            font-style: italic;
+        };
+
+        .dancing_albert_gator{
+            width: 20px;
+            height: auto;
+        }
+    };
+
+
+    .col2{
+        
+        h3{
+            font-weight: normal;
+        };
+
+        h4{
+            font-weight: normal;
+        };
+
+        h5{
+            font-weight: normal;
+            font-style: italic;
+        }
+    };
+
+}
+
+
+
+
 
 .contact_button{
     margin-top: 5%;

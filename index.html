@@ -1,13 +1,16 @@
 <!-- 127.0.0.1:5000  |  127.0.0.1 is the local computer's IP address, 5000 is the port -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADF | Home</title>
+    <meta name="description" content="Andres D. Flores personal website and technical notebook">
+
+    <title>Home | ADF</title>
     <link rel="stylesheet" href="home_style.css">
-    <link rel="icon" type="image/x-icon" href="E:\Desktop\python_projects\personal_website\templates\website_images\favicon_legoSelfie.png">
+    <link rel="icon" type="image/x-icon" href="website_images\favicon_legoSelfie.png">
 </head>
 
 <body>
@@ -15,21 +18,22 @@
 
         <nav>
 
-            <img src="E:\Desktop\python_projects\personal_website\templates\website_images\favicon_legoSelfie.png" class="logo">
+            <img src="website_images\favicon_legoSelfie.png" class="logo">
 
 
             <!-- li:  List Item:  used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>) -->
+            <!-- a:  anchor:  used to create a link -->
             <ul>
                 <li><a href="index.html" class="ribbon_tab underline_on_hover selected_ribbon_tab">Home</a></li>
                 <li><a href="about.html" class="ribbon_tab underline_on_hover">About</a></li>
-                <li><a href="#" class="ribbon_tab underline_on_hover">Resume</a></li>
+                <li><a href="resume.html" class="ribbon_tab underline_on_hover">Resume</a></li>
                 <li><a href="#" class="ribbon_tab underline_on_hover">Tech Notes</a></li>
                 <li><a href="contact.html" class="ribbon_tab underline_on_hover">Contact</a></li>
             </ul>
 
             <div>
-                <a href="https://www.linkedin.com/in/andresdflores/" class="btn anim">LinkedIn</a>
-                <a href="https://github.com/AndresDFlores" class="btn anim">GitHub</a>
+                <a href="https://www.linkedin.com/in/andresdflores/" target="_blank" class="btn anim">LinkedIn</a>
+                <a href="https://github.com/AndresDFlores" target="_blank" class="btn anim">GitHub</a>
             </div>
 
         </nav>
@@ -51,12 +55,10 @@
 
 
             <div class="column">
-                <img src="E:\Desktop\python_projects\personal_website\templates\website_images\headshot_informal.png" class="headshot anim">
+                <img src="website_images\headshot_informal.png" class="headshot anim">
             </div>
 
-
         </div>
-
 
 
 
@@ -68,12 +70,17 @@
 
 
             <p class="anim">
-                <br>This portfolio is an ongoing effort to document and share my learning while showcasing some of my technical experiences.  I have many interests within and beyond engineering so, much like myself, this digital notebook will continue to grow as I build proficiency in various areas.<br><br>Feel free to click around and reach out with learning recommendations, inquiries, or greetings!
+                <br>This portfolio is an ongoing effort to document and share my learning while showcasing some of my technical experiences.  I have many interests within and beyond engineering so, much like myself, this digital notebook will continue to grow as I build proficiency in various areas.<br>
             </p>
 
-            
+
+            <p class="anim">
+                <br>Feel free to click around and reach out with learning recommendations, inquiries, or greetings!<br>
+            </p>
 
         </div>
+
+
 
         <div class="contact_button">
 
@@ -84,9 +91,10 @@
     </div>
 
 
+
     <footer class="footer_line">
 
-        <p>&copy; 2025  |  Website by Andres D. Flores  |  Hosted on Amazon Web Services (AWS)</p>
+        <p>&copy; 2025  |  Website Designed and Built with HTML / CSS by Andres D. Flores  |  Hosted on Amazon Web Services (AWS)</p>
 
     </footer>
 
