@@ -16,31 +16,30 @@
     position: inherit;
 }
 
+.logo{
+    width: 75px;
+    height: auto;
+}
+
 
 nav{
     padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-
-.logo{
-    width: 75px;
-}
-
-
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 15px;
-}
-
-
-nav ul li a{
-    text-decoration: none;
-    color: #333;
-    font-weight: 400;
+    ul{
+        li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 15px;
+            
+            a{
+                text-decoration: none;
+                color: #333;
+                font-weight: 400;
+            };
+        };
+    };
 }
 
 
@@ -48,10 +47,12 @@ nav ul li a{
     font-size: 20px;
 }
 
+
 .selected_ribbon_tab{
     font-size: 30px;
     font-weight: bold;
 }
+
 
 .bold_on_hover:hover:hover{
     font-weight: bold;
@@ -74,52 +75,66 @@ nav ul li a{
     border-top-right-radius: 0;
     transition: 0.5s
 }
-
-
 .btn:hover{
     border-top-right-radius: 30px;
 }
 
 
-.about_me{
+
+.headshot{
     margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    img{
+        width:300px;
+        height: auto;
+    };
+}
+
+
+.about_me{
+    margin-top: 2.5%;
     padding: 10px 10%;
+
+    h1{
+        font-size: 50px;
+        color: #222;
+        animation-delay: 0.5s;
+    };
+
+    p{
+        font-size: 25px;
+        margin-right: 10;
+        color: #333;
+        text-align:justify;
+        animation-delay: 0.75s;
+    };
+
+    /* this adds an extra invisible line, so any other line is justified */
+    p:after {
+        content:'';
+        display:inline-block;
+        width:100%;
+        vertical-align:top;
+    };
 }
 
-
-.about_me h1{
-    font-size: 50px;
-    color: #222;
-    animation-delay: 0.5s;
-}
-
-.about_me p{
-    font-size: 25px;
-    margin-right: 10;
-    color: #333;
-    text-align:justify;
-    animation-delay: 0.75s;
-}
-
-.about_me p:after {/* this adds an extra invisible line, so any other line is justified */
-    content:'';
-    display:inline-block;
-    width:100%;
-    vertical-align:top;
-    }
 
 .contact_button{
     margin-top: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.contact_button .btn{
-    animation-delay: 1s;
-    position: fixed;
-    bottom: 3%;
-    right: 3%;
+    
+    .btn{
+        animation-delay: 1s;
+        position: fixed;
+        bottom: 3%;
+        right: 3%;
+    };
 }
 
 

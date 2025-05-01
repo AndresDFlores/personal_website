@@ -16,31 +16,30 @@
     position: inherit;
 }
 
+.logo{
+    width: 75px;
+    height: auto;
+}
+
 
 nav{
     padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-
-.logo{
-    width: 75px;
-}
-
-
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 15px;
-}
-
-
-nav ul li a{
-    text-decoration: none;
-    color: #333;
-    font-weight: 400;
+    ul{
+        li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 15px;
+            
+            a{
+                text-decoration: none;
+                color: #333;
+                font-weight: 400;
+            };
+        };
+    };
 }
 
 
@@ -48,10 +47,12 @@ nav ul li a{
     font-size: 20px;
 }
 
+
 .selected_ribbon_tab{
     font-size: 30px;
     font-weight: bold;
 }
+
 
 .bold_on_hover:hover:hover{
     font-weight: bold;
@@ -74,13 +75,9 @@ nav ul li a{
     border-top-right-radius: 0;
     transition: 0.5s
 }
-
-
 .btn:hover{
     border-top-right-radius: 30px;
 }
-
-
 
 
 
@@ -114,16 +111,11 @@ nav ul li a{
                 padding: 5% 5% 5% 5%;
                 vertical-align: middle;
                 width: 300px;
-            }
-
+            };
         };
-
-      }
+      };
       
 }
-
-
-
 
 
 .contact_button{
@@ -131,13 +123,13 @@ nav ul li a{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.contact_button .btn{
-    animation-delay: 1s;
-    position: fixed;
-    bottom: 3%;
-    right: 3%;
+    
+    .btn{
+        animation-delay: 1s;
+        position: fixed;
+        bottom: 3%;
+        right: 3%;
+    };
 }
 
 
