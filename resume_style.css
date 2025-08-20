@@ -107,6 +107,37 @@ clear: both;
 }
 
 
+.personal_projects_container{
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 375px;
+    }
+
+    .col1{
+        h3{
+            font-weight: normal;
+        };
+
+        h4{
+            font-weight: normal;
+            font-style: italic;
+        };
+    };
+
+    .col2{
+        li{
+            text-align:justify;
+            padding-bottom: 15px;
+        };
+    };
+
+}
+
+
 .resume_container{
 
     /* Create two equal columns that floats next to each other */
