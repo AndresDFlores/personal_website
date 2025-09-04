@@ -82,7 +82,7 @@ nav{
 
 .resume{
     margin-top: 5%;
-    padding: 10px 10%;
+    /* padding: 10px 10%; */
     animation-delay: 0.75s;
 
     .row{
