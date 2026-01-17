@@ -86,9 +86,10 @@ nav{
     /* padding: 10px 10%; */
 
     h1{
-        font-size: 50px;
-        color: #222;
-        animation-delay: 0.5s;
+        color: darkblue;
+        text-align: left;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
     };
 
     .grid_container {
