@@ -69,9 +69,10 @@
                     <div class="column col2">
                         <ul>
                             <li>Restoring the mechanical vending assembly of a 1960s National Vendors Series 222 machine, ensuring reliable operation while preserving original hardware</li>
-                            <li>Engineered a replacement solenoid system, including custom solenoid‑driver circuitry, to control mechanical lockout and enable secure and reliable vending upon payment authorization</li>
-                            <li>Designed and prototyped a solenoid controller on an Arduino Uno and a breadboard to validate the electronics before finalizing on a perfboard for integration with the vending machine</li>
-                            <li>Developed software on a Raspberry Pi Pico with Python to drive the solenoid and manage the transaction flow, enabling seamless operation with modern payment methods</li>
+                            <li>Engineered a replacement solenoid system, including custom solenoid driver circuitry, to control mechanical lockout for secure and reliable vending upon payment authorization</li>
+                            <li>Modeled an XYZ solenoid carriage and mount in Fusion 360 for precise solenoid placement on the existing vending lockout mechanism</li>
+                            <li>Implemented a lightweight HTTP server locally on a Raspberry Pi Zero 2W to receive inbound webhook POST requests from external payment platforms using secure tunnels</li>
+                            <li>Programmed an event driven pipeline with Python that forwards webhook payloads to downstream embedded hardware that seamlessly manages transaction flow</li>
                         </ul>  
                     </div>
 
